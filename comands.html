@@ -23,3 +23,39 @@ git commit -m "blablabla"
 
 git log
         <!--mostra o resumo do que foi feito, salvo e comitado-->
+
+git log --oneline
+        <!--mostra o resumo do que foi feito, salvo e comitado em apenas 1 linha-->
+
+git log -p
+        <!--mostra o resumo do que foi feito, salvo e comitado, com mais informações-->
+
+q
+        <!--sai da tela do log e volta para editar no terminal-->
+
+https://devhints.io/git-log
+        <!--git log cheatsheet - para ver mais comandos e filtrar o que será mostrado no resuno do log-->
+
+
+        <!--para ignorar um documento ou pasta - criar o arquivo .gitignore e dentro dele salvar o nome do que quer que seja ignorado - nome-do-doc ou nome-da-pasta/  ou * nome-da-pasta. Tem que add este arquivo no repositório e comitar-->
+
+cd ..
+        <!--sobe 1 diretório-->
+
+cd (nome-da-pasta)
+        <!--vai para o diretório escolhido->
+
+git init --bare
+        <!--cria um repositório puro, que só contem as alterações dos arquivos. Vai gerar um endereço do repositorio criado. Ex. /Users/klebernogueira/Desktop/Loulou/Alura/servidor-curso-git/-->
+
+git remote add (nome-que-quiser) (endereço do repositório remoto)
+        <!--cria um repositório remoto com o endereço que quiser - pode ser um remoto na propria maquina, no hub, etc-->
+
+git remote -v
+        <!--mostra o endereço do repositório remoto e que busca (fecth) e envia (push) dados para este caminho -->
+
+mkdir nome-da-pasta-a-criar
+        <!--cria uma nova pasta -->
+
+git clone /nome-pra-onde-vai-mandar
+        <!--clona os arquivos do repositório para este lugar que está sendo indicado -->
