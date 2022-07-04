@@ -106,24 +106,32 @@ Mostra o endereço do repositório remoto e que busca (fecth) e envia (push) dad
 git remote -v
 ```
 
-
+Cria uma nova pasta
+```
 mkdir nome-da-pasta-a-criar
-        <!--cria uma nova pasta -->
+```
 
+
+Clona os arquivos do repositório para este lugar que está sendo indicado
+```
 git clone /nome-pra-onde-vai-mandar
-        <!--clona os arquivos do repositório para este lugar que está sendo indicado -->
+```
 
+
+Renomear repositório remoto
+```
+git remote rename nome-antigo nome-novo
+```
+
+
+Envia arquivos pro repositório
+```
 git push nome-do-repositório-que-quer-mandar master
-        <!--envia arquivos pro repositório -->
+```
 
 
-## Code
+Busca arquivos pro repositório
+```
+git pull nome-do-repositório-que-quer-trazer master
+```
 
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
