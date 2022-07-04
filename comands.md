@@ -135,3 +135,31 @@ Busca arquivos pro repositório
 git pull nome-do-repositório-que-quer-trazer master
 ```
 
+Para mandar pro github, cria um repositório lá, coloca descrição e etc. Vai gerar um endereço https com o comando para colar no terminal.
+```
+git remote add origin https://github.com/loucodes/Aprendendo-a-usar-GitHub.git
+```
+
+
+Cria uma nova branch e já faz o checkout para esta nova
+```
+git checkout -b nome-da-nova-branch
+```
+
+
+Faz checkout para outra branch
+```
+git checkout nome-da-branch
+```
+
+
+Mostra lista coms branchs disponíveis
+```
+git branch
+```
+
+
+Unifica as branchs e envia o que foi trabalhado em uma branch para a branch master
+```
+git merge nome-da-branch-que-vai-unir-com-master
+```
