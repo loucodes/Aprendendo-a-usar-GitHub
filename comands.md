@@ -163,3 +163,9 @@ Unifica as branchs e envia o que foi trabalhado em uma branch para a branch mast
 ```
 git merge nome-da-branch-que-vai-unir-com-master
 ```
+
+
+Atualiza e reposiciona os comits trabalhados numa branch para a master sem gerar um novo commit (une os trabalhos, colocando os commits numa posição de continuidade antes da master - mas dentro dela) )
+```
+git rebase nome-da-branch-a-reposicionar
+```
