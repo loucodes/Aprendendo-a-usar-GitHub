@@ -169,3 +169,52 @@ Atualiza e reposiciona os comits trabalhados numa branch para a master sem gerar
 ```
 git rebase nome-da-branch-a-reposicionar
 ```
+
+
+Descarta alterações no arquivo que ainda não foram marcadas para comitar
+```
+git restore <file>...
+```
+
+
+Descarta alterações no arquivo que já foram marcadas para comitar, mas não foram commitadas efetivamente
+```
+git reset HEAD nomedoarquivo
+git checkout --nomedoarquivo
+```
+
+
+Descarta alterações no arquivo que já foram commitadas (ver o hash do commit em git log)
+```
+git revert hash-do-commit
+```
+
+
+Salva as alterações em um aquivo temporário, sem precisar commitar
+```
+git stash
+```
+
+
+Lista os docs salvos no aquivo temporário
+```
+git stash list
+```
+
+
+Resgata as alterações salvas no arquivo temporário (resgata o 0, ou 1, ou 2, etc...)
+```
+git stash apply 0
+```
+
+
+Apaga do temporário
+```
+git stash drop
+```
+
+
+Resgata a última alteração e já apaga do temporário, realiza o merge com as modificações que já temos e aplica aquelas que já estavam salvas lá
+```
+git stash pop
+```
