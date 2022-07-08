@@ -124,7 +124,7 @@ git remote rename nome-antigo nome-novo
 ```
 
 
-Envia arquivos pro repositório
+Envia arquivos pro repositório (local ou hub - vc escolhe)
 ```
 git push nome-do-repositório-que-quer-mandar master
 ```
@@ -262,3 +262,7 @@ git tag
 ```
 
 
+Envia tag pro repositório (local ou hub - vc escolhe)
+```
+git push nome-do-repositório-que-quer-mandar nome-da-versão
+```
