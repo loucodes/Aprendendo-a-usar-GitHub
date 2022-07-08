@@ -118,7 +118,7 @@ git clone /nome-pra-onde-vai-mandar
 ```
 
 
-Renomear repositório remoto
+Renomea repositório remoto
 ```
 git remote rename nome-antigo nome-novo
 ```
@@ -218,3 +218,47 @@ Resgata a última alteração e já apaga do temporário, realiza o merge com as
 ```
 git stash pop
 ```
+
+
+Volta no estágio que estava no commit indicado
+```
+git checkout hash-co-commit-indicado
+```
+
+
+Cria nova branch a partir do commit indicado
+```
+git checkout -b novo-branch
+```
+
+
+Mostra a diferença entre 2 commits
+```
+git diff hash-do-commit..hash-do-outro-commit
+```
+
+
+Mostra a diferença para o que ainda não foi commitado
+```
+git diff
+```
+
+
+Cria uma tag do projeto (versão a ser lançada)
+```
+git tag -a nome-da-versão
+```
+
+
+Cria uma tag do projeto (versão a ser lançada) com uma mensagem
+```
+git tag -a nome-da-versão -m "mensagem para descrever"
+```
+
+
+Mostra as tags disponíveis
+```
+git tag
+```
+
+
